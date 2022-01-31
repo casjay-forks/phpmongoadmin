@@ -30,22 +30,22 @@
     <div class="container h-100">
 
         <?php
-        if ( isset($requiredFields) ) :
-        ?>
+if (isset($requiredFields)):
+?>
 
             <div class="alert alert-danger text-center" role="alert">
                 Please fill these fields: <?php echo join(', ', $requiredFields); ?>
             </div>
 
         <?php
-        endif;
-        ?>
+endif;
+?>
 
-        <div class="row h-100 justify-content-center align-items-center">
+        <div class="row mt-5 justify-content-center align-items-center">
 
             <div id="mpg-cards" class="col-xs-12">
 
-                <div class="card mpg-card-front">
+                <div class="card mpg-card-back">
 
                     <div class="card-header text-center text-nowrap">
                         <img src="./assets/images/mpg-icon.svg" width="32" height="32" />
@@ -72,7 +72,7 @@
 
                 </div>
 
-                <div class="card mpg-card-back">
+                <div class="card mpg-card-front">
 
                     <div class="card-header text-center text-nowrap">
                         <img src="./assets/images/mpg-icon.svg" width="32" height="32" />
