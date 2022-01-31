@@ -16,7 +16,7 @@
     --mpg-secondary-color-darker: hsl(45, 100%, 45%);
     --mpg-secondary-color: hsl(45, 100%, 51%);
     --mpg-text-color: white;
-    
+
 }
 
 *:focus {
@@ -30,7 +30,7 @@ body {
     background-color: var(--mpg-background-color);
     color: var(--mpg-text-color);
     font-family: Arial, sans-serif;
-    
+
 }
 
 .navbar {
@@ -53,7 +53,7 @@ body {
         flex-flow: row nowrap;
         -ms-flex-pack: start;
         justify-content: flex-start;
-    
+
     }
 
 }
@@ -98,9 +98,9 @@ body {
         display: flex;
         -ms-flex-direction: row;
         flex-direction: row;
-    
+
     }
-    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -130,7 +130,7 @@ body {
     #menu-toggle-button {
 
         display: none;
-    
+
     }
 
 }
@@ -152,7 +152,7 @@ body {
     #mpg-create-coll-button, #mpg-rename-coll-button {
 
         margin-right: 7px;
-    
+
     }
 
 }
@@ -167,7 +167,7 @@ body {
 
     border: none;
     width: auto;
-    
+
 }
 
 @media screen and (max-width: 576px) {
@@ -175,7 +175,7 @@ body {
     #mpg-import-button {
 
         margin-top: 10px;
-        
+
     }
 
 }
@@ -452,7 +452,7 @@ li.CodeMirror-hint-active {
 #mpg-index-created {
 
     margin-top: 15px;
-    
+
 }
 
 @media screen and (max-width: 576px) {
@@ -460,12 +460,12 @@ li.CodeMirror-hint-active {
     #mpg-create-index-button {
 
         margin-top: 10px;
-    
+
     }
 
 }
 
-#mpg-users-table,
+/*  #mpg-users-table,
 #mpg-indexes-table {
 
     background-color: white;
@@ -500,13 +500,13 @@ li.CodeMirror-hint-active {
     color: black;
 
 }
-
+*/
 @media screen and (min-width: 768px) {
 
     #mpg-create-user-modal {
 
         top: 45px;
-    
+
     }
 
 }
