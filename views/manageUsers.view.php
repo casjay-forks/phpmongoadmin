@@ -38,11 +38,11 @@
                         <?php require MPG\ABS_PATH . '/views/parts/databases.view.php'; ?>
 
                     </div>
-                    
+
                 </div>
-                
+
             </div>
-            
+
             <div class="col-md-9">
 
                 <div class="row">
@@ -54,8 +54,8 @@
                         <div id="mpg-please-select-a-db">
                             <i>Please select a database.</i>
                         </div>
-                        
-                        <table id="mpg-users-table" class="table d-none">
+
+                        <table id="mpg-users-table" class="d-none table table-striped table-dark">
 
                             <thead>
                                 <tr>
@@ -65,7 +65,7 @@
                                 </tr>
                             </thead>
 
-                            <tbody>
+                            <tbody class="">
                             </tbody>
 
                         </table>
@@ -73,11 +73,11 @@
                     </div>
 
                 </div>
-                
+
             </div>
-            
+
         </div>
-        
+
     </div>
 
     <div id="mpg-create-user-modal" class="modal" tabindex="-1" role="dialog">
@@ -87,14 +87,14 @@
             <div class="modal-content">
 
                 <div class="modal-body">
-                    
+
                     <div class="form-group">
 
                         <label>Name</label>
                         <input id="mpg-user-name" type="text" class="form-control">
 
                     </div>
-                    
+
                     <div class="form-group">
 
                         <label>Password</label>
@@ -138,7 +138,7 @@
                     </div>
 
                 </div>
-                
+
                 <div class="modal-footer d-block">
                     <button class="btn btn-secondary float-left" data-dismiss="modal" data-modal-id="mpg-create-user-modal">Cancel</button>
                     <button id="mpg-create-user-button" class="btn btn-primary float-right">Create user</button>
