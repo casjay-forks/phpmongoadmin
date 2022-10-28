@@ -29,7 +29,7 @@
 
     <div class="container h-100">
 
-        <?php 
+        <?php
         if ( isset($requiredFields) ) :
         ?>
 
@@ -45,13 +45,13 @@
 
             <div id="mpg-cards" class="col-xs-12">
 
-                <div class="card mpg-card-front">
+                <div class="card mpg-card-back">
 
                     <div class="card-header text-center text-nowrap">
                         <img src="./assets/images/mpg-icon.svg" width="32" height="32" />
                         <h3 class="mpg-card-header-title d-inline align-middle">MongoDB PHP GUI</h3>
                     </div>
-                    
+
                     <div class="card-body">
 
                         <form method="POST" spellcheck="false">
@@ -72,7 +72,7 @@
 
                 </div>
 
-                <div class="card mpg-card-back">
+                <div class="card mpg-card-front">
 
                     <div class="card-header text-center text-nowrap">
                         <img src="./assets/images/mpg-icon.svg" width="32" height="32" />
@@ -125,15 +125,15 @@
                             </div>
 
                         </form>
-                        
+
                     </div>
 
                 </div>
 
             </div>
-            
+
         </div>
-        
+
     </div>
 
 </body>
